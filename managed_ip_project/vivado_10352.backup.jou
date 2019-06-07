@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Jun 06 09:42:49 2019
+# Process ID: 7100
+# Log file: C:/Users/yizii/Desktop/SOC/managed_ip_project/vivado.log
+# Journal file: C:/Users/yizii/Desktop/SOC/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yizii/Desktop/SOC/managed_ip_project/managed_ip_project.xpr

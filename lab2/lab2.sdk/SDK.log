@@ -1,0 +1,650 @@
+03:10:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+03:10:06 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab1/lab1.sdk/system_wrapper.hdf.
+03:10:07 INFO  : XSDB server has started successfully.
+03:17:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:17:43 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+03:17:46 INFO  : Mermory regions for PS have been updated.
+03:17:46 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab1/lab1.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+03:17:46 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+03:17:47 INFO  : 'ps7_init' command is executed.
+03:17:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:17:47 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+03:17:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:17:48 INFO  : The application 'C:/Users/yizii/Desktop/SOC/lab1/lab1.sdk/men_test1/Debug/men_test1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:17:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab1/lab1.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+dow C:/Users/yizii/Desktop/SOC/lab1/lab1.sdk/men_test1/Debug/men_test1.elf
+----------------End of Script----------------
+
+03:17:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:17:48 INFO  : 'con' command is executed.
+03:17:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+con
+----------------End of Script----------------
+
+03:21:16 INFO  : Disconnected from the channel tcfchan#1.
+03:21:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+05:47:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+05:47:54 INFO  : XSDB server has started successfully.
+05:47:55 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper.hdf.
+05:53:16 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+06:44:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:44:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:44:08 INFO  : 'fpga -state' command is executed.
+06:44:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:44:11 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:44:14 INFO  : Mermory regions for PS have been updated.
+06:44:14 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl' is done.
+06:44:14 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:44:15 INFO  : 'ps7_init' command is executed.
+06:44:15 INFO  : 'ps7_post_config' command is executed.
+06:44:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+ps7_post_config
+----------------End of Script----------------
+
+06:44:15 INFO  : Memory regions updated for context APU
+06:48:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:48:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:48:37 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+06:49:13 INFO  : Disconnected from the channel tcfchan#1.
+06:49:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:49:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:49:13 INFO  : 'fpga -state' command is executed.
+06:49:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:49:13 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:49:16 INFO  : Mermory regions for PS have been updated.
+06:49:17 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl' is done.
+06:49:17 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:49:18 INFO  : 'ps7_init' command is executed.
+06:49:18 INFO  : 'ps7_post_config' command is executed.
+06:49:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:49:18 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:49:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:49:19 INFO  : The application 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:49:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+dow C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+06:49:19 INFO  : Memory regions updated for context APU
+06:49:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:49:19 INFO  : 'con' command is executed.
+06:49:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+con
+----------------End of Script----------------
+
+06:50:26 INFO  : Disconnected from the channel tcfchan#2.
+06:50:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:50:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:50:26 INFO  : 'fpga -state' command is executed.
+06:51:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:51:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:51:04 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+06:51:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:51:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:51:13 INFO  : 'fpga -state' command is executed.
+06:51:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:51:13 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:51:16 INFO  : Mermory regions for PS have been updated.
+06:51:16 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl' is done.
+06:51:17 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:51:17 INFO  : 'ps7_init' command is executed.
+06:51:17 INFO  : 'ps7_post_config' command is executed.
+06:51:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:51:18 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:51:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:51:18 INFO  : The application 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:51:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+dow C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+06:51:18 INFO  : Memory regions updated for context APU
+06:51:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:51:18 INFO  : 'con' command is executed.
+06:51:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+con
+----------------End of Script----------------
+
+06:54:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:54:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:54:05 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+06:54:13 INFO  : Disconnected from the channel tcfchan#3.
+06:55:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:55:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:55:05 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+06:56:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:56:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:56:08 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+06:56:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:56:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:56:14 INFO  : 'fpga -state' command is executed.
+06:56:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:56:15 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:56:18 INFO  : Mermory regions for PS have been updated.
+06:56:18 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl' is done.
+06:56:18 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:56:19 INFO  : 'ps7_init' command is executed.
+06:56:19 INFO  : 'ps7_post_config' command is executed.
+06:56:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:56:19 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:56:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:56:20 INFO  : The application 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:56:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+dow C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+06:56:20 INFO  : Memory regions updated for context APU
+06:56:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:56:20 INFO  : 'con' command is executed.
+06:56:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+con
+----------------End of Script----------------
+
+06:58:34 INFO  : Disconnected from the channel tcfchan#4.
+06:58:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:58:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:58:46 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+06:58:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:58:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:58:54 INFO  : 'fpga -state' command is executed.
+06:58:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:58:54 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:58:57 INFO  : Mermory regions for PS have been updated.
+06:58:57 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl' is done.
+06:58:57 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+06:58:58 INFO  : 'ps7_init' command is executed.
+06:58:58 INFO  : 'ps7_post_config' command is executed.
+06:58:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:58:59 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:58:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:58:59 INFO  : The application 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:58:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+dow C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+06:58:59 INFO  : Memory regions updated for context APU
+06:58:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:58:59 INFO  : 'con' command is executed.
+06:58:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+con
+----------------End of Script----------------
+
+07:04:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:04:35 INFO  : Disconnected from the channel tcfchan#5.
+07:04:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+07:05:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:05:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:05:11 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+07:05:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:05:19 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:05:22 INFO  : Mermory regions for PS have been updated.
+07:05:22 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl' is done.
+07:05:22 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:05:22 INFO  : System reset is completed.
+07:05:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:05:27 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+07:05:27 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:05:28 INFO  : 'ps7_init' command is executed.
+07:05:28 INFO  : 'ps7_post_config' command is executed.
+07:05:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:05:29 INFO  : The application 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:05:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1
+fpga -file C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+dow C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+07:05:29 INFO  : Memory regions updated for context APU
+07:05:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:05:29 INFO  : 'con' command is executed.
+07:05:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+con
+----------------End of Script----------------
+
+07:05:48 INFO  : Disconnected from the channel tcfchan#6.
+07:05:49 INFO  : ps7_init is completed.
+07:05:49 INFO  : ps7_post_config is completed.
+07:05:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:06:57 INFO  : ps7_init is completed.
+07:06:57 INFO  : ps7_post_config is completed.
+07:06:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:18:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:18:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:18:24 INFO  : XSDB server has started successfully.
+07:18:26 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper.hdf.
+07:18:28 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+07:18:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:18:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:18:37 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+07:18:49 INFO  : ps7_init is completed.
+07:18:49 INFO  : ps7_post_config is completed.
+07:18:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:19:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:19:33 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:19:36 INFO  : Mermory regions for PS have been updated.
+07:19:36 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl' is done.
+07:19:37 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:19:37 INFO  : System reset is completed.
+07:19:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:19:42 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+07:19:42 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:19:42 INFO  : 'ps7_init' command is executed.
+07:19:42 INFO  : 'ps7_post_config' command is executed.
+07:19:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:19:43 INFO  : The application 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:19:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1
+fpga -file C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+dow C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+07:19:43 INFO  : Memory regions updated for context APU
+07:19:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:19:43 INFO  : 'con' command is executed.
+07:19:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+con
+----------------End of Script----------------
+
+07:19:56 INFO  : Disconnected from the channel tcfchan#1.
+07:19:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:19:56 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:19:59 INFO  : Mermory regions for PS have been updated.
+07:19:59 INFO  : Sourcing of 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl' is done.
+07:20:00 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:20:00 INFO  : System reset is completed.
+07:20:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:20:04 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+07:20:05 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0' command is executed.
+07:20:05 INFO  : 'ps7_init' command is executed.
+07:20:05 INFO  : 'ps7_post_config' command is executed.
+07:20:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:20:06 INFO  : The application 'C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:20:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+memmap -addr 1092681728 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 3758137344 -size 4096 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+memmap -addr 1092616192 -size 65536 -flags 3
+source C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1
+fpga -file C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+dow C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/TestApp/Debug/TestApp.elf
+----------------End of Script----------------
+
+07:20:06 INFO  : Memory regions updated for context APU
+07:20:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:20:06 INFO  : 'con' command is executed.
+07:20:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279654348A"} -index 0
+con
+----------------End of Script----------------
+
+07:24:50 INFO  : Disconnected from the channel tcfchan#2.
+07:24:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:31:22 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:31:24 INFO  : XSDB server has started successfully.
+07:31:25 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper.hdf.
+07:31:27 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+07:32:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:32:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:32:50 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+07:50:08 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:50:10 INFO  : XSDB server has started successfully.
+07:50:11 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper.hdf.
+07:50:13 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+07:50:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:50:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:50:52 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+07:54:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:54:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:54:19 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+07:54:35 INFO  : ps7_init is completed.
+07:54:35 INFO  : ps7_post_config is completed.
+07:54:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:03:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

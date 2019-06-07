@@ -1,0 +1,7 @@
+13:31:52 **** Clean-only build of configuration Debug for project TestApp ****
+make clean 
+rm -rf  ./src/lab2.o  ./src/lab2.d  TestApp.elf.size  TestApp.elf
+' '
+
+13:31:53 Build Finished (took 294ms)
+

@@ -1,0 +1,6 @@
+14:56:51 **** Build of project lab4_bsp ****
+make -k all 
+make: *** 没有规则可以创建目标“all”.
+
+14:56:51 Build Finished (took 179ms)
+

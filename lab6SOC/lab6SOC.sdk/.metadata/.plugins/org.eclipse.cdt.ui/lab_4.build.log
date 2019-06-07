@@ -1,0 +1,13 @@
+13:38:36 **** Auto Build of configuration Debug for project lab_4 ****
+make all 
+'Building file: ../lab4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"lab4.o" -I../../lab_4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"lab4.d" -MT"lab4.d" -o "lab4.o" "../lab4.c"
+../lab4.c:2:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [lab4.o] ´íÎó 1
+
+13:38:36 Build Finished (took 428ms)
+

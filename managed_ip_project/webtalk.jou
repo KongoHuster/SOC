@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Jun 06 11:24:49 2019
+# Process ID: 15120
+# Log file: C:/Users/yizii/Desktop/SOC/managed_ip_project/webtalk.log
+# Journal file: C:/Users/yizii/Desktop/SOC/managed_ip_project\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/yizii/desktop/soc/ip_repo/edit_led_ip_v1_0.hw/webtalk/labtool_webtalk.tcl -notrace
