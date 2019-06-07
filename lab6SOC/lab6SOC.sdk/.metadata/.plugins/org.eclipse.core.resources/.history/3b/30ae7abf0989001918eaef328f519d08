@@ -88,6 +88,7 @@ int main(void) {
 		if (psb_check == STARTBUTTON) {
 			GameOver = START;	//start game
 			psb_check_prev = psb_check;
+
 		}
 
 		if (GameOver == STOP) {
@@ -138,7 +139,6 @@ void MoveBallRight(void) {
 				if(i == 1){
 					StartDirection = RIGHT;
 					run = 0;
-					i = -1;
 				}else
 				{
 					GameOver = STOP;
@@ -146,7 +146,6 @@ void MoveBallRight(void) {
 					StartDirection = RIGHT;
 					scoreleft += 1;
 					run = 0;
-					i = -1;
 				}
 			} else {
 				//set GameOver; display scores
@@ -202,14 +201,13 @@ void MoveBallLeft(void) {
 				{
 					StartDirection = LEFT;
 				    run = 0;
-					i = 6;
 				}else
 				{
 					GameOver = STOP;
 					StartDirection = LEFT;
 					scoreright += 1;
 				    run = 0;
-					i = 6;
+
 				}
 
 			} else {

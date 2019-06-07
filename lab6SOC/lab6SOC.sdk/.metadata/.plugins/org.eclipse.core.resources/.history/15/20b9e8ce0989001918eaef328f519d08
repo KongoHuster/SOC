@@ -202,14 +202,13 @@ void MoveBallLeft(void) {
 				{
 					StartDirection = LEFT;
 				    run = 0;
-					i = 6;
 				}else
 				{
 					GameOver = STOP;
 					StartDirection = LEFT;
 					scoreright += 1;
 				    run = 0;
-					i = 6;
+
 				}
 
 			} else {

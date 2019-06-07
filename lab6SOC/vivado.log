@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jun 07 17:09:12 2019
+# Process ID: 5356
+# Log file: C:/Users/yizii/Desktop/SOC/lab6SOC/vivado.log
+# Journal file: C:/Users/yizii/Desktop/SOC/lab6SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yizii/Desktop/SOC/lab6SOC/lab6SOC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/yizii/Desktop/SOC/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/XLInux/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 707.387 ; gain = 157.023
+INFO: [Vivado 12-4159] Implementation run is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-run implementation and re-generate bitstream before doing hardware export.
+file copy -force C:/Users/yizii/Desktop/SOC/lab6SOC/lab6SOC.runs/impl_1/system_wrapper.sysdef C:/Users/yizii/Desktop/SOC/lab6SOC/lab6SOC.sdk/system_wrapper.hdf
+
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace C:/Users/yizii/Desktop/SOC/lab6SOC/lab6SOC.sdk -hwspec C:/Users/yizii/Desktop/SOC/lab6SOC/lab6SOC.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/yizii/Desktop/SOC/lab6SOC/lab6SOC.sdk -hwspec C:/Users/yizii/Desktop/SOC/lab6SOC/lab6SOC.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

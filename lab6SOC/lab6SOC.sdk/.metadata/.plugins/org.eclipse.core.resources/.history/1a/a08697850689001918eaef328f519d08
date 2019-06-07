@@ -87,10 +87,9 @@ int main(void) {
 
 		if (psb_check == STARTBUTTON) {
 			GameOver = START;	//start game
-			psb_check_prev = psb_check;
 		}
 
-		if (GameOver == STOP) {
+		if (GameOver == STOP && psb_check != psb_check_prev) {
 			if (StartDirection == LEFT) {
 				LED_IP_mWriteReg(XPAR_LED_IP_0_S00_AXI_BASEADDR, 0,
 						LED_PATTERNS[4]);
@@ -98,6 +97,7 @@ int main(void) {
 				LED_IP_mWriteReg(XPAR_LED_IP_0_S00_AXI_BASEADDR, 0,
 						LED_PATTERNS[1]);
 			}
+			psb_check_prev = psb_check;
 		} else {
 
 			if (StartDirection) {
@@ -138,7 +138,6 @@ void MoveBallRight(void) {
 				if(i == 1){
 					StartDirection = RIGHT;
 					run = 0;
-					i = -1;
 				}else
 				{
 					GameOver = STOP;
@@ -146,7 +145,6 @@ void MoveBallRight(void) {
 					StartDirection = RIGHT;
 					scoreleft += 1;
 					run = 0;
-					i = -1;
 				}
 			} else {
 				//set GameOver; display scores
@@ -202,14 +200,13 @@ void MoveBallLeft(void) {
 				{
 					StartDirection = LEFT;
 				    run = 0;
-					i = 6;
 				}else
 				{
 					GameOver = STOP;
 					StartDirection = LEFT;
 					scoreright += 1;
 				    run = 0;
-					i = 6;
+
 				}
 
 			} else {

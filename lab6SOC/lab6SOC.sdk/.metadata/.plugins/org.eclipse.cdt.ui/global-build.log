@@ -4836,3 +4836,382 @@ make: Nothing to be done for `all'.
 17:02:30 **** Incremental Build of configuration Debug for project lab7 ****
 make all 
 make: Nothing to be done for `all'.
+17:10:32 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:10:32 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:12:31 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27268	   1224	  22660	  51152	   c7d0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:12:37 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:12:38 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:13:54 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:13:54 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:14:17 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27268	   1224	  22660	  51152	   c7d0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:14:23 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:14:24 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:15:19 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c: In function 'MoveBallLeft':
+../src/Pingpong_template_2019spring.c:176:7: warning: unused variable 'getOut' [-Wunused-variable]
+ //  LED_IP_mWriteReg(XPAR_LED_IP_0_S00_AXI_BASEADDR, 0, LED_PATTERNS[i]);
+       ^
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27268	   1224	  22660	  51152	   c7d0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:15:30 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27268	   1224	  22660	  51152	   c7d0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:15:45 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27268	   1224	  22660	  51152	   c7d0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:15:48 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27268	   1224	  22660	  51152	   c7d0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:16:05 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c: In function 'MoveBallRight':
+../src/Pingpong_template_2019spring.c:147:19: error: 'getOut' undeclared (first use in this function)
+      scoreleft += 1;
+                   ^
+../src/Pingpong_template_2019spring.c:147:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+17:16:15 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27332	   1224	  22660	  51216	   c810	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:16:21 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:16:22 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:18:01 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+../src/Pingpong_template_2019spring.c: In function 'main':
+../src/Pingpong_template_2019spring.c:87:3: error: expected expression before '}' token
+   if (psb_check == STARTBUTTON) {
+   ^
+make: *** [src/Pingpong_template_2019spring.o] ´íÎó 1
+17:18:08 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27332	   1224	  22660	  51216	   c810	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:18:15 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:18:16 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:18:44 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:18:44 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:22:53 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27332	   1224	  22676	  51232	   c820	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:24:15 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27332	   1224	  22676	  51232	   c820	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:25:13 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27396	   1224	  22676	  51296	   c860	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:26:09 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27460	   1224	  22676	  51360	   c8a0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:26:13 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:26:14 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:27:51 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27460	   1224	  22676	  51360	   c8a0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:27:55 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:27:56 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:28:49 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27396	   1224	  22676	  51296	   c860	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:28:54 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:28:55 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+17:50:57 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27460	   1224	  22676	  51360	   c8a0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:51:23 **** Auto Build of configuration Debug for project lab7 ****
+make all 
+'Building file: ../src/Pingpong_template_2019spring.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pingpong_template_2019spring.o" -I../../lab7_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pingpong_template_2019spring.d" -MT"src/Pingpong_template_2019spring.d" -o "src/Pingpong_template_2019spring.o" "../src/Pingpong_template_2019spring.c"
+'Finished building: ../src/Pingpong_template_2019spring.c'
+' '
+'Building target: lab7.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab7_bsp/ps7_cortexa9_0/lib -o "lab7.elf"  ./src/Pingpong_template_2019spring.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab7.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab7.elf  |tee "lab7.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27460	   1224	  22676	  51360	   c8a0	lab7.elf
+'Finished building: lab7.elf.size'
+' '
+17:51:27 **** Incremental Build of configuration Debug for project lab6SoC ****
+make all 
+make: Nothing to be done for `all'.
+17:51:28 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.

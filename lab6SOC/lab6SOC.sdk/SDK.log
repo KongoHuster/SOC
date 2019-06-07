@@ -1332,3 +1332,26 @@ java.lang.RuntimeException: Failed to download ELF file
 17:02:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 17:02:45 INFO  : Processor reset is completed for ps7_cortexa9_0
 17:06:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:09:58 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:10:01 INFO  : XSDB server has started successfully.
+17:10:01 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab6SOC/lab6SOC.sdk/system_wrapper.hdf.
+17:10:03 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_5.
+17:10:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:12:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:13:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:13:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:14:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:14:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:16:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:16:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:18:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:18:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:26:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:26:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:27:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:27:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:28:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:28:58 INFO  : Processor reset is completed for ps7_cortexa9_0
