@@ -1,6 +1,6 @@
-17:51:27 **** Incremental Build of configuration Debug for project lab6SoC ****
+18:33:16 **** Incremental Build of configuration Debug for project lab6SoC ****
 make all 
 make: Nothing to be done for `all'.
 
-17:51:27 Build Finished (took 230ms)
+18:33:17 Build Finished (took 574ms)
 

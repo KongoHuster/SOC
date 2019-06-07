@@ -1355,3 +1355,17 @@ java.lang.RuntimeException: Failed to download ELF file
 17:27:58 INFO  : Processor reset is completed for ps7_cortexa9_0
 17:28:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 17:28:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:51:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:51:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:01:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:01:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:01:29 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:01:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:01:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:01:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:02:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:02:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:04:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:04:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:07:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:07:36 INFO  : Processor reset is completed for ps7_cortexa9_0
