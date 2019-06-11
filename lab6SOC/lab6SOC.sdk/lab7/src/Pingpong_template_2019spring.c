@@ -97,10 +97,10 @@ int main(void) {
 		if (GameOver == STOP) {
 			if (StartDirection == LEFT) {
 				LED_IP_mWriteReg(XPAR_LED_IP_0_S00_AXI_BASEADDR, 0,
-						LED_PATTERNS[4]);
+						LED_PATTERNS[5]);
 			} else {
 				LED_IP_mWriteReg(XPAR_LED_IP_0_S00_AXI_BASEADDR, 0,
-						LED_PATTERNS[1]);
+						LED_PATTERNS[0]);
 			}
 		} else {
 			if (StartDirection) {
@@ -151,6 +151,8 @@ void MoveBallRight(void) {
 					scoreleft += 1;
 					run = RUNFOBBIDEN;
 					led_order = LED_PATTERNS_ORDER_LEFT_OUT;
+					LED_IP_mWriteReg(XPAR_LED_IP_0_S00_AXI_BASEADDR, 0,
+							LED_PATTERNS[led_order]);
 					xil_printf("Score Left = %d   Score Right = %d\r\n", scoreright, scoreleft);
 				}
 			} else {
@@ -210,7 +212,11 @@ void MoveBallLeft(void) {
 					StartDirection = LEFT;
 					scoreright += 1;
 					run = RUNFOBBIDEN;
+
 					led_order = LED_PATTERNS_ORDER_RIGHT_OUT;
+					LED_IP_mWriteReg(XPAR_LED_IP_0_S00_AXI_BASEADDR, 0,
+							LED_PATTERNS[led_order]);
+
 					xil_printf("Score Left = %d   Score Right = %d\r\n", scoreright, scoreleft);
 				}
 

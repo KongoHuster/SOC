@@ -1,6 +1,6 @@
-18:33:17 **** Incremental Build of configuration Debug for project lab7 ****
+04:45:55 **** Incremental Build of configuration Debug for project lab7 ****
 make all 
 make: Nothing to be done for `all'.
 
-18:33:17 Build Finished (took 229ms)
+04:45:55 Build Finished (took 243ms)
 

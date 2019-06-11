@@ -1,0 +1,231 @@
+06:37:21 **** Build of project interrupt_counter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project interrupt_counter ****
+
+Nothing to build for project interrupt_counter
+06:38:15 **** Auto Build of configuration Debug for project interrupt_counter ****
+make all 
+'Building file: ../src/interrupt_PingPong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_PingPong.o" -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_PingPong.d" -MT"src/interrupt_PingPong.d" -o "src/interrupt_PingPong.o" "../src/interrupt_PingPong.c"
+../src/interrupt_PingPong.c:4:21: fatal error: xtmrctr.h: No such file or directory
+ #include "xtmrctr.h"
+                     ^
+compilation terminated.
+make: *** [src/interrupt_PingPong.o] ´íÎó 1
+06:38:27 **** Auto Build of configuration Debug for project interrupt_counter ****
+make all 
+'Building file: ../src/interrupt_PingPong.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_PingPong.o" -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_PingPong.d" -MT"src/interrupt_PingPong.d" -o "src/interrupt_PingPong.o" "../src/interrupt_PingPong.c"
+../src/interrupt_PingPong.c:35:1: error: unknown type name 'XTmrCtr'
+ XTmrCtr TMRInst;
+ ^
+../src/interrupt_PingPong.c:48:43: error: unknown type name 'XTmrCtr'
+ static int IntcInitFunction(u16 DeviceId, XTmrCtr *TmrInstancePtr, XGpio *GpioInstancePtr);
+                                           ^
+../src/interrupt_PingPong.c: In function 'TMR_Intr_Handler':
+../src/interrupt_PingPong.c:119:3: warning: implicit declaration of function 'XTmrCtr_Stop' [-Wimplicit-function-declaration]
+   XTmrCtr_Stop(&TMRInst,0);
+   ^
+../src/interrupt_PingPong.c:120:3: warning: implicit declaration of function 'XTmrCtr_Reset' [-Wimplicit-function-declaration]
+   XTmrCtr_Reset(&TMRInst,0);
+   ^
+../src/interrupt_PingPong.c:121:3: warning: implicit declaration of function 'XTmrCtr_Start' [-Wimplicit-function-declaration]
+   XTmrCtr_Start(&TMRInst,0);
+   ^
+../src/interrupt_PingPong.c:125:2: warning: implicit declaration of function 'XTmrCtr_IsExpired' [-Wimplicit-function-declaration]
+  if (XTmrCtr_IsExpired(&TMRInst,0)){
+  ^
+../src/interrupt_PingPong.c: In function 'main':
+../src/interrupt_PingPong.c:13:26: error: 'XPAR_AXI_GPIO_2_DEVICE_ID' undeclared (first use in this function)
+ #define SWHS_DEVICE_ID   XPAR_AXI_GPIO_2_DEVICE_ID
+                          ^
+../src/interrupt_PingPong.c:182:38: note: in expansion of macro 'SWHS_DEVICE_ID'
+  status = XGpio_Initialize(&SWHInst, SWHS_DEVICE_ID);
+                                      ^
+../src/interrupt_PingPong.c:13:26: note: each undeclared identifier is reported only once for each function it appears in
+ #define SWHS_DEVICE_ID   XPAR_AXI_GPIO_2_DEVICE_ID
+                          ^
+../src/interrupt_PingPong.c:182:38: note: in expansion of macro 'SWHS_DEVICE_ID'
+  status = XGpio_Initialize(&SWHInst, SWHS_DEVICE_ID);
+                                      ^
+../src/interrupt_PingPong.c:190:3: warning: implicit declaration of function 'XTmrCtr_Initialize' [-Wimplicit-function-declaration]
+   status = XTmrCtr_Initialize(&TMRInst, TMR_DEVICE_ID);
+   ^
+../src/interrupt_PingPong.c:10:24: error: 'XPAR_TMRCTR_0_DEVICE_ID' undeclared (first use in this function)
+ #define TMR_DEVICE_ID  XPAR_TMRCTR_0_DEVICE_ID
+                        ^
+../src/interrupt_PingPong.c:190:41: note: in expansion of macro 'TMR_DEVICE_ID'
+   status = XTmrCtr_Initialize(&TMRInst, TMR_DEVICE_ID);
+                                         ^
+../src/interrupt_PingPong.c:192:3: warning: implicit declaration of function 'XTmrCtr_SetHandler' [-Wimplicit-function-declaration]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+   ^
+../src/interrupt_PingPong.c:193:3: warning: implicit declaration of function 'XTmrCtr_SetResetValue' [-Wimplicit-function-declaration]
+   XTmrCtr_SetResetValue(&TMRInst, 0, TMR_LOAD);
+   ^
+../src/interrupt_PingPong.c:194:3: warning: implicit declaration of function 'XTmrCtr_SetOptions' [-Wimplicit-function-declaration]
+   XTmrCtr_SetOptions(&TMRInst, 0, XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
+   ^
+../src/interrupt_PingPong.c:194:35: error: 'XTC_INT_MODE_OPTION' undeclared (first use in this function)
+   XTmrCtr_SetOptions(&TMRInst, 0, XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
+                                   ^
+../src/interrupt_PingPong.c:194:57: error: 'XTC_AUTO_RELOAD_OPTION' undeclared (first use in this function)
+   XTmrCtr_SetOptions(&TMRInst, 0, XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
+                                                         ^
+../src/interrupt_PingPong.c:197:3: warning: implicit declaration of function 'IntcInitFunction' [-Wimplicit-function-declaration]
+   status = IntcInitFunction(INTC_DEVICE_ID, &TMRInst, &BTNInst);
+   ^
+../src/interrupt_PingPong.c: At top level:
+../src/interrupt_PingPong.c:235:36: error: unknown type name 'XTmrCtr'
+ int IntcInitFunction(u16 DeviceId, XTmrCtr *TmrInstancePtr, XGpio *GpioInstancePtr)
+                                    ^
+../src/interrupt_PingPong.c:56:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^
+../src/interrupt_PingPong.c:221:5: warning: 'InterruptSystemSetup' defined but not used [-Wunused-function]
+ int InterruptSystemSetup(XScuGic *XScuGicInstancePtr)
+     ^
+make: *** [src/interrupt_PingPong.o] ´íÎó 1
+06:38:41 **** Clean-only build of configuration Debug for project interrupt_counter ****
+make clean 
+rm -rf  ./src/interrupt_PingPong.o  ./src/interrupt_PingPong.d  interrupt_counter.elf.size  interrupt_counter.elf
+' '
+
+****  of configuration Debug for project interrupt_counter ****
+
+Nothing to build for project interrupt_counter
+06:40:37 **** Auto Build of configuration Debug for project interrupt_counter ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+'Finished building: ../src/interrupt_counter_tut_2B.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/interrupt_counter_tut_2B.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25040	   1952	  22628	  49620	   c1d4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+06:44:04 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+06:46:57 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+06:53:54 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+06:54:22 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+06:54:33 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+06:54:52 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+06:55:17 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+06:56:35 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+07:11:48 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.

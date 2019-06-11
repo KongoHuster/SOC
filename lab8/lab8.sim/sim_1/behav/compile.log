@@ -1,0 +1,60 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/ipif_pkg.vhd" into library axi_lite_ipif_v3_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/pselect_f.vhd" into library axi_lite_ipif_v3_0
+INFO: [VRFC 10-307] analyzing entity pselect_f
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/address_decoder.vhd" into library axi_lite_ipif_v3_0
+INFO: [VRFC 10-307] analyzing entity address_decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/slave_attachment.vhd" into library axi_lite_ipif_v3_0
+INFO: [VRFC 10-307] analyzing entity slave_attachment
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/axi_lite_ipif.vhd" into library axi_lite_ipif_v3_0
+INFO: [VRFC 10-307] analyzing entity axi_lite_ipif
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd" into library lib_cdc_v1_0
+INFO: [VRFC 10-307] analyzing entity cdc_sync
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/interrupt_control_v3_1/dd9a9dbd/hdl/src/vhdl/interrupt_control.vhd" into library interrupt_control_v3_1
+INFO: [VRFC 10-307] analyzing entity interrupt_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/gpio_core.vhd" into library axi_gpio_v2_0
+INFO: [VRFC 10-307] analyzing entity GPIO_Core
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/axi_gpio_v2_0/e416c384/hdl/src/vhdl/axi_gpio.vhd" into library axi_gpio_v2_0
+INFO: [VRFC 10-307] analyzing entity axi_gpio
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/bd/zynq_interrupt_system/ip/zynq_interrupt_system_axi_gpio_0_0/sim/zynq_interrupt_system_axi_gpio_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity zynq_interrupt_system_axi_gpio_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/bd/zynq_interrupt_system/ip/zynq_interrupt_system_axi_gpio_1_0/sim/zynq_interrupt_system_axi_gpio_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity zynq_interrupt_system_axi_gpio_1_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/upcnt_n.vhd" into library proc_sys_reset_v5_0
+INFO: [VRFC 10-307] analyzing entity upcnt_n
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd" into library proc_sys_reset_v5_0
+INFO: [VRFC 10-307] analyzing entity sequence
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd" into library proc_sys_reset_v5_0
+INFO: [VRFC 10-307] analyzing entity lpf
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd" into library proc_sys_reset_v5_0
+INFO: [VRFC 10-307] analyzing entity proc_sys_reset
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/bd/zynq_interrupt_system/ip/zynq_interrupt_system_rst_processing_system7_0_100M_0/sim/zynq_interrupt_system_rst_processing_system7_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity zynq_interrupt_system_rst_processing_system7_0_100M_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yizii/Desktop/SOC/lab8/lab8.srcs/sources_1/ipshared/xilinx.com/fifo_generator_v12_0/15467f24/hdl/fifo_generator_v12_0_rfs.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-307] analyzing entity input_blk
+INFO: [VRFC 10-307] analyzing entity output_blk
+INFO: [VRFC 10-307] analyzing entity shft_wrapper
+INFO: [VRFC 10-307] analyzing entity shft_ram
+INFO: [VRFC 10-307] analyzing entity wr_pf_as
+INFO: [VRFC 10-307] analyzing entity wr_pf_ss
+INFO: [VRFC 10-307] analyzing entity rd_pe_as
+INFO: [VRFC 10-307] analyzing entity rd_pe_ss
+INFO: [VRFC 10-307] analyzing entity synchronizer_ff
+INFO: [VRFC 10-307] analyzing entity delay
+INFO: [VRFC 10-307] analyzing entity bin_cntr
+INFO: [VRFC 10-307] analyzing entity clk_x_pntrs_builtin
+INFO: [VRFC 10-307] analyzing entity logic_builtin
+INFO: [VRFC 10-307] analyzing entity builtin_prim
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth
+INFO: [VRFC 10-307] analyzing entity builtin_top
+INFO: [VRFC 10-307] analyzing entity reset_builtin
+INFO: [VRFC 10-307] analyzing entity builtin_prim_v6
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth_v6
+INFO: [VRFC 10-307] analyzing entity builtin_extdepth_low_latency
+INFO: [VRFC 10-307] analyzing entity builtin_top_v6
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_builtin
+INFO: [VRFC 10-307] analyzing entity bram_sync_reg
+INFO: [VRFC 10-307] analyzing entity bram_fifo_rstlogic
+INFO: [VRFC 10-307] analyzing entity reset_blk_ramfifo
+INFO: [VRFC 10-307] analyzing entity axi_reg_slice
+INFO: [VRFC 10-307] analyzing entity fifo_generator_top
+INFO: [VRFC 10-307] analyzing entity fifo_generator_v12_0_synth

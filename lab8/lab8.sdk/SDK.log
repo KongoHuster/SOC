@@ -1,0 +1,52 @@
+06:36:12 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+06:36:13 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+06:36:14 INFO  : XSDB server has started successfully.
+06:43:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:43:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:43:19 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:44:09 INFO  : ps7_init is completed.
+06:44:10 INFO  : ps7_post_config is completed.
+06:44:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:47:00 INFO  : ps7_init is completed.
+06:47:00 INFO  : ps7_post_config is completed.
+06:47:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:53:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:53:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:53:48 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:53:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:53:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:54:02 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+06:54:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:54:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:54:17 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:55:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:55:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:55:13 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:55:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+06:56:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+06:56:08 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+06:56:08 INFO  : XSDB server has started successfully.
+06:56:10 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_0.
+06:56:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:56:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:56:25 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:56:41 INFO  : ps7_init is completed.
+06:56:41 INFO  : ps7_post_config is completed.
+06:56:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:07:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

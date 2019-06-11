@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="LED" key="selection"/>
+		<item value="getOut" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="getOut"/>
+			<item value="i"/>
 			<item value="led"/>
 			<item value="Swi"/>
 			<item value="LED"/>
@@ -15,6 +17,7 @@
 			<item value="button"/>
 		</list>
 		<list key="replacehistory">
+			<item value="led_order"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

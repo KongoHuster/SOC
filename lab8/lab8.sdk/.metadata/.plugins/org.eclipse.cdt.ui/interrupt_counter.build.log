@@ -1,0 +1,6 @@
+07:11:48 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make all 
+make: Nothing to be done for `all'.
+
+07:11:48 Build Finished (took 390ms)
+
