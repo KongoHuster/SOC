@@ -89,6 +89,7 @@ void BTN_Intr_Handler(void *InstancePtr)
 			return;
 		}
 	btn_value = XGpio_DiscreteRead(&BTNInst, 1);
+//	xil_printf("btn_value = %d\r\n", btn_value);
 
 	switch(btn_value){
 		case RESETBUTTON:
@@ -145,6 +146,10 @@ void BTN_Intr_Handler(void *InstancePtr)
 
 		default:break;
 	}
+	// Increment counter based on button value
+	// Reset if centre button pressed
+//	led_data = led_data + btn_value;
+//    XGpio_DiscreteWrite(&LEDInst, 1, led_data);
 
     (void)XGpio_InterruptClear(&BTNInst, BTN_INT);
     // Enable GPIO interrupts
@@ -160,6 +165,10 @@ void TMR_Intr_Handler(void *data)
 
 			//judge different directions
 			if (GameOver != STOP){
+//				xil_printf("led_order = %d, direction = %d\r\n", led_order, StartDirection);
+
+//				xil_printf("direction = %d\r\n", StartDirection); //RIGHT 1 LEFT 0
+				switch(StartDirection){
 					case LEFT:
 						XTmrCtr_Stop(&TMRInst,0);
 						tmr_count = 0;
@@ -199,6 +208,15 @@ void TMR_Intr_Handler(void *data)
 				}
 
 			}
+
+//			XTmrCtr_Stop(&TMRInst,0);
+//			tmr_count = 0;
+//
+//			led_data++;
+//			XGpio_DiscreteWrite(&LEDInst, 1,  LED_PATTERNS_ORDER[led_order]);
+//			XTmrCtr_Reset(&TMRInst,0);
+//			XTmrCtr_Start(&TMRInst,0);
+
 		}
 		else tmr_count++;
 	}

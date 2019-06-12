@@ -2963,3 +2963,40 @@ arm-xilinx-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
   32644	   1992	  22676	  57312	   dfe0	interrupt_counter.elf
 'Finished building: interrupt_counter.elf.size'
 ' '
+22:24:52 **** Auto Build of configuration Debug for project interrupt_counter ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2D.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.d" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'TMR_Intr_Handler':
+../src/interrupt_counter_tut_2D.c:163:6: error: case label not within a switch statement
+      case LEFT:
+      ^
+../src/interrupt_counter_tut_2D.c:177:7: error: break statement not within loop or switch
+       break;
+       ^
+../src/interrupt_counter_tut_2D.c:179:6: error: case label not within a switch statement
+      case RIGHT:
+      ^
+../src/interrupt_counter_tut_2D.c:196:7: error: break statement not within loop or switch
+       break;
+       ^
+../src/interrupt_counter_tut_2D.c:198:6: error: 'default' label not within a switch statement
+      default:break;
+      ^
+../src/interrupt_counter_tut_2D.c:198:14: error: break statement not within loop or switch
+      default:break;
+              ^
+../src/interrupt_counter_tut_2D.c: At top level:
+../src/interrupt_counter_tut_2D.c:205:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:237:3: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+   ^
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:293:6: note: expected 'XTmrCtr_Handler' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^
+make: *** [src/interrupt_counter_tut_2D.o] ´íÎó 1

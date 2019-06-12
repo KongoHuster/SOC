@@ -322,3 +322,27 @@ java.lang.RuntimeException: Failed to download ELF file
 22:15:10 INFO  : Processor reset is completed for ps7_cortexa9_0
 22:16:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
 22:16:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:16:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:16:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:17:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:17:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+22:17:31 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+22:17:39 INFO  : ps7_init is completed.
+22:17:39 INFO  : ps7_post_config is completed.
+22:17:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:18:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:18:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:19:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:19:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+22:19:14 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+22:19:23 INFO  : ps7_init is completed.
+22:19:24 INFO  : ps7_post_config is completed.
+22:19:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:21:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:21:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+22:21:01 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+22:21:16 INFO  : ps7_init is completed.
+22:21:16 INFO  : ps7_post_config is completed.
+22:21:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:21:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:21:36 INFO  : Processor reset is completed for ps7_cortexa9_0
