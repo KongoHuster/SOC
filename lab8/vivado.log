@@ -1,0 +1,166 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 12 07:15:34 2019
+# Process ID: 4972
+# Log file: C:/Users/yizii/Desktop/SOC/lab8/vivado.log
+# Journal file: C:/Users/yizii/Desktop/SOC/lab8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yizii/Desktop/SOC/lab8/lab8.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/XLInux/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 742.766 ; gain = 199.379
+save_project_as zynq_interrupts_exercise2D C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D -force
+open_bd_design {C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <zynq_interrupt_system> from BD file <C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 779.461 ; gain = 34.563
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_timer:2.0 axi_timer_0
+endgroup
+regenerate_bd_layout
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_timer_0/S_AXI]
+</axi_timer_0/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x42800000[ 64K ]>
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0
+endgroup
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets axi_gpio_0_ip2intc_irpt]
+set_property location {0.5 -183 499} [get_bd_cells xlconcat_0]
+connect_bd_net [get_bd_pins xlconcat_0/dout] [get_bd_pins processing_system7_0/IRQ_F2P]
+connect_bd_net [get_bd_pins xlconcat_0/In1] [get_bd_pins axi_gpio_0/ip2intc_irpt]
+delete_bd_objs [get_bd_nets axi_gpio_0_ip2intc_irpt]
+connect_bd_net [get_bd_pins xlconcat_0/In1] [get_bd_pins axi_timer_0/interrupt]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins xlconcat_0/In1] [get_bd_pins axi_timer_0/interrupt]'
+connect_bd_net [get_bd_pins xlconcat_0/In0] [get_bd_pins axi_gpio_0/ip2intc_irpt]
+delete_bd_objs [get_bd_nets axi_gpio_0_ip2intc_irpt]
+connect_bd_net [get_bd_pins xlconcat_0/In0] [get_bd_pins axi_gpio_0/ip2intc_irpt]
+connect_bd_net [get_bd_pins xlconcat_0/In1] [get_bd_pins axi_timer_0/interrupt]
+make_wrapper -files [get_files C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd] -top
+INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created
+Verilog Output written to : C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hdl/zynq_interrupt_system.v
+Verilog Output written to : C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hdl/zynq_interrupt_system_wrapper.v
+Wrote  : <C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd> 
+make_wrapper: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 919.766 ; gain = 70.566
+save_bd_design
+Wrote  : <C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'zynq_interrupt_system.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hdl/zynq_interrupt_system.v
+Verilog Output written to : C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hdl/zynq_interrupt_system_wrapper.v
+Wrote  : <C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd> 
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'zynq_interrupt_system_processing_system7_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'zynq_interrupt_system_axi_gpio_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'zynq_interrupt_system_axi_gpio_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'zynq_interrupt_system_axi_gpio_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_axi_gpio_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'zynq_interrupt_system_axi_gpio_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_rst_processing_system7_0_100M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'zynq_interrupt_system_rst_processing_system7_0_100M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'zynq_interrupt_system_xbar_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'zynq_interrupt_system_axi_timer_0_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'zynq_interrupt_system_axi_timer_0_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'zynq_interrupt_system_xlconcat_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'zynq_interrupt_system_auto_pc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hw_handoff/zynq_interrupt_system.hwh
+Generated Block Design Tcl file C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hw_handoff/zynq_interrupt_system_bd.tcl
+Generated Hardware Definition File C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hdl/zynq_interrupt_system.hwdef
+INFO: [BD 41-1662] The design 'zynq_interrupt_system.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hdl/zynq_interrupt_system.v
+Verilog Output written to : C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hdl/zynq_interrupt_system_wrapper.v
+Wrote  : <C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_processing_system7_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'zynq_interrupt_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'zynq_interrupt_system_axi_gpio_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_axi_gpio_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'zynq_interrupt_system_axi_gpio_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'zynq_interrupt_system_axi_gpio_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_rst_processing_system7_0_100M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'zynq_interrupt_system_rst_processing_system7_0_100M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'zynq_interrupt_system_rst_processing_system7_0_100M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_axi_timer_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_xlconcat_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'zynq_interrupt_system_auto_pc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hw_handoff/zynq_interrupt_system.hwh
+Generated Block Design Tcl file C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hw_handoff/zynq_interrupt_system_bd.tcl
+Generated Hardware Definition File C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/hdl/zynq_interrupt_system.hwdef
+[Wed Jun 12 07:25:18 2019] Launched synth_1...
+Run output will be captured here: C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.runs/synth_1/runme.log
+[Wed Jun 12 07:25:18 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 958.387 ; gain = 38.621
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 72 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/yizii/Desktop/SOC/lab8/.Xil/Vivado-4972-DESKTOP-VUIUF3J/dcp/zynq_interrupt_system_wrapper_early.xdc]
+Finished Parsing XDC File [c:/Users/yizii/Desktop/SOC/lab8/.Xil/Vivado-4972-DESKTOP-VUIUF3J/dcp/zynq_interrupt_system_wrapper_early.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.484 . Memory (MB): peak = 1153.781 ; gain = 0.203
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.484 . Memory (MB): peak = 1153.781 ; gain = 0.203
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1233.395 ; gain = 245.570
+file copy -force C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.runs/impl_1/zynq_interrupt_system_wrapper.sysdef C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd}
+regenerate_bd_layout
+open_bd_design {C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd}
+make_wrapper -files [get_files C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd] -top
+open_bd_design {C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd}
+save_bd_design
+Wrote  : <C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.srcs/sources_1/bd/zynq_interrupt_system/zynq_interrupt_system.bd> 
+file copy -force C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.runs/impl_1/zynq_interrupt_system_wrapper.sysdef C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf
+
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Jun 12 07:45:30 2019] Launched impl_1...
+Run output will be captured here: C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.runs/impl_1/runme.log
+launch_sdk -workspace C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 12 08:40:26 2019...

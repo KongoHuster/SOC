@@ -1,0 +1,324 @@
+06:36:12 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+06:36:13 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+06:36:14 INFO  : XSDB server has started successfully.
+06:43:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:43:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:43:19 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:44:09 INFO  : ps7_init is completed.
+06:44:10 INFO  : ps7_post_config is completed.
+06:44:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:47:00 INFO  : ps7_init is completed.
+06:47:00 INFO  : ps7_post_config is completed.
+06:47:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:53:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:53:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:53:48 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:53:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+06:53:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:54:02 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+06:54:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:54:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:54:17 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:55:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:55:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:55:13 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:55:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+06:56:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+06:56:08 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+06:56:08 INFO  : XSDB server has started successfully.
+06:56:10 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_0.
+06:56:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:56:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+06:56:25 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+06:56:41 INFO  : ps7_init is completed.
+06:56:41 INFO  : ps7_post_config is completed.
+06:56:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:07:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:11:11 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:11:13 INFO  : XSDB server has started successfully.
+07:11:14 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+07:11:15 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_0.
+07:11:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1560294609531,  Project:1560292477441
+07:11:17 INFO  : The hardware specification for project 'zynq_interrupt_system_wrapper_hw_platform_0' is different from C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+07:11:17 INFO  : Copied contents of C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf into \zynq_interrupt_system_wrapper_hw_platform_0\system.hdf.
+07:11:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+07:11:25 INFO  : 
+07:11:26 INFO  : Updating hardware inferred compiler options for interrupt_counter.
+07:11:26 INFO  : Clearing existing target manager status.
+07:11:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:11:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:11:40 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+07:11:52 INFO  : ps7_init is completed.
+07:11:52 INFO  : ps7_post_config is completed.
+07:11:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:14:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:29:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:29:17 INFO  : XSDB server has started successfully.
+07:29:17 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf.
+07:48:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:48:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:48:03 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+07:48:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:50:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:50:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:50:44 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+07:50:52 INFO  : ps7_init is completed.
+07:50:52 INFO  : ps7_post_config is completed.
+07:50:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:51:19 INFO  : ps7_init is completed.
+07:51:20 INFO  : ps7_post_config is completed.
+07:51:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:51:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:51:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:51:31 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+07:51:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+07:51:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:51:47 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+07:52:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:52:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:52:30 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+07:52:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:52:54 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:52:57 INFO  : XSDB server has started successfully.
+07:52:57 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf.
+07:52:58 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_1.
+07:53:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:53:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:53:14 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+07:53:26 INFO  : ps7_init is completed.
+07:53:26 INFO  : ps7_post_config is completed.
+07:53:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:40:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:56:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:56:17 INFO  : XSDB server has started successfully.
+11:56:18 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf.
+11:56:19 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_1.
+12:26:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:26:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+12:26:43 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+12:26:54 INFO  : ps7_init is completed.
+12:26:54 INFO  : ps7_post_config is completed.
+12:26:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:30:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:30:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:40:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:40:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:45:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:45:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:45:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:45:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+12:45:31 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+12:45:43 INFO  : ps7_init is completed.
+12:45:43 INFO  : ps7_post_config is completed.
+12:45:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:47:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:47:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:50:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:50:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:52:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:52:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:53:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:53:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:54:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:54:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:56:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:57:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:58:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:58:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:00:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:00:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:02:01 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:02:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:04:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:04:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:04:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:05:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:06:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:06:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:10:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:10:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:10:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:10:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:11:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:11:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:11:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:11:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:14:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:14:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:16:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:16:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:17:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:17:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:18:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:18:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:18:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:18:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:19:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:19:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:19:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:19:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:20:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:20:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+13:20:22 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+13:20:29 INFO  : ps7_init is completed.
+13:20:30 INFO  : ps7_post_config is completed.
+13:20:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:21:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:21:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:24:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:25:19 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:25:21 INFO  : XSDB server has started successfully.
+13:25:21 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf.
+13:25:23 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_1.
+13:33:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:34:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:34:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:34:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:35:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:35:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:35:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:35:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:35:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+13:35:42 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+13:35:48 INFO  : ps7_init is completed.
+13:35:48 INFO  : ps7_post_config is completed.
+13:35:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:36:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:36:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:36:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:36:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:37:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:37:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:38:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:38:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:38:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:38:54 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:38:56 INFO  : XSDB server has started successfully.
+13:38:56 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf.
+13:38:58 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_1.
+13:39:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:44:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:44:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A429BFA" && level==0} -index 1' command is executed.
+13:44:55 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+13:45:02 INFO  : ps7_init is completed.
+13:45:02 INFO  : ps7_post_config is completed.
+13:45:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:46:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:46:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:47:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:47:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+13:47:03 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+13:47:12 INFO  : ps7_init is completed.
+13:47:12 INFO  : ps7_post_config is completed.
+13:47:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:48:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:48:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:49:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:49:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:50:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:50:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:52:55 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:52:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:53:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:53:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:54:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:54:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+13:54:46 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+13:55:20 INFO  : ps7_init is completed.
+13:55:20 INFO  : ps7_post_config is completed.
+13:55:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:55:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:55:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:56:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:56:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+13:56:17 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+13:56:23 INFO  : ps7_init is completed.
+13:56:24 INFO  : ps7_post_config is completed.
+13:56:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:57:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:57:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+13:57:39 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+13:57:45 INFO  : ps7_init is completed.
+13:57:45 INFO  : ps7_post_config is completed.
+13:57:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:58:44 INFO  : ps7_init is completed.
+13:58:45 INFO  : ps7_post_config is completed.
+13:58:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:59:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:59:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:59:13 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:59:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:59:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+13:59:22 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+13:59:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:59:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+13:59:56 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+14:00:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:00:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+14:00:26 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+14:00:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:00:53 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+14:00:55 INFO  : XSDB server has started successfully.
+14:00:55 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper.hdf.
+14:00:57 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_1.
+14:08:22 INFO  : ps7_init is completed.
+14:08:23 INFO  : ps7_post_config is completed.
+14:08:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:14:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:14:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:14:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:14:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+22:14:57 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/zynq_interrupts_exercise2D/zynq_interrupts_exercise2D.sdk/zynq_interrupt_system_wrapper_hw_platform_1/zynq_interrupt_system_wrapper.bit"
+22:15:10 INFO  : ps7_init is completed.
+22:15:10 INFO  : ps7_post_config is completed.
+22:15:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:16:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:16:15 INFO  : Processor reset is completed for ps7_cortexa9_0

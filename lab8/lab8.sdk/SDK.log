@@ -50,3 +50,21 @@ java.lang.RuntimeException: Failed to download ELF file
 06:56:41 INFO  : ps7_post_config is completed.
 06:56:41 INFO  : Processor reset is completed for ps7_cortexa9_0
 07:07:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:11:11 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:11:13 INFO  : XSDB server has started successfully.
+07:11:14 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+07:11:15 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_0.
+07:11:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1560294609531,  Project:1560292477441
+07:11:17 INFO  : The hardware specification for project 'zynq_interrupt_system_wrapper_hw_platform_0' is different from C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+07:11:17 INFO  : Copied contents of C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf into \zynq_interrupt_system_wrapper_hw_platform_0\system.hdf.
+07:11:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+07:11:25 INFO  : 
+07:11:26 INFO  : Updating hardware inferred compiler options for interrupt_counter.
+07:11:26 INFO  : Clearing existing target manager status.
+07:11:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:11:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+07:11:40 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+07:11:52 INFO  : ps7_init is completed.
+07:11:52 INFO  : ps7_post_config is completed.
+07:11:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:14:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
