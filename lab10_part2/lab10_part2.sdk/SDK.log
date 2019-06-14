@@ -1,0 +1,77 @@
+03:00:14 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+03:00:15 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf.
+03:00:16 INFO  : XSDB server has started successfully.
+03:03:05 INFO  : Refreshed build settings on project lab10VGA
+03:05:12 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\yizii\Desktop\SOC\lab10_part2\image\BOOT.bin
+03:05:12 INFO  : Creating new bif file C:\Users\yizii\Desktop\SOC\lab10_part2\image\output.bif
+03:05:13 INFO  : Bootgen command execution is done.
+03:08:13 INFO  : ps7_init is completed.
+03:08:13 INFO  : ps7_post_config is completed.
+03:08:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:15:17 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\yizii\Desktop\SOC\lab10_part2\image\BOOT.bin -w on
+03:15:17 INFO  : Creating new bif file C:\Users\yizii\Desktop\SOC\lab10_part2\image\output.bif
+03:15:18 INFO  : Bootgen command execution is done.
+03:15:51 ERROR : The Hardware Project referenced by this BSP (lab10VGA_bsp) was not found in this workspace. As a result, this BSP will not build properly. To fix this error, please import the associated hardware project or recreate a new BSP targeting an existing hardware platform.
+03:23:16 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+03:23:17 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf.
+03:23:18 INFO  : Checking for hwspec changes in the project vgademo_wrapper_hw_platform_0.
+03:23:18 INFO  : XSDB server has started successfully.
+03:25:19 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+03:25:20 INFO  : XSDB server has started successfully.
+03:25:23 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf.
+03:25:25 INFO  : Checking for hwspec changes in the project vgademo_wrapper_hw_platform_0.
+03:25:59 INFO  : Refreshed build settings on project lab10VGA
+03:27:19 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\yizii\Desktop\SOC\lab10_part2\image\BOOT.bin -w on
+03:27:19 INFO  : Overwriting existing bif file C:\Users\yizii\Desktop\SOC\lab10_part2\image\output.bif
+03:27:20 INFO  : Bootgen command execution is done.
+03:32:00 INFO  : Invoking Bootgen: bootgen -image lab10VGA_fsl.bif -o C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA_fsl\bootimage\BOOT.bin
+03:32:00 INFO  : Creating new bif file C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA_fsl\bootimage\lab10VGA_fsl.bif
+03:32:01 INFO  : Bootgen command execution is done.
+03:36:08 INFO  : Invoking Bootgen: bootgen -image lab10VGA_fsl.bif -o C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA_fsl\bootimage\BOOT.bin -w on
+03:36:09 INFO  : Bootgen command execution is done.
+03:38:16 INFO  : ps7_init is completed.
+03:38:16 INFO  : ps7_post_config is completed.
+03:38:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:38:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:38:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+03:38:45 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/vgademo_wrapper.bit"
+03:38:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:38:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:39:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:39:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+03:39:29 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/vgademo_wrapper.bit"
+03:39:37 INFO  : ps7_init is completed.
+03:39:37 INFO  : ps7_post_config is completed.
+03:39:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:40:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:40:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:41:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:41:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:42:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:42:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:43:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:43:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:44:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:44:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:45:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:45:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:45:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:46:28 INFO  : Invoking Bootgen: bootgen -image lab10VGA_fsl.bif -o C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA_fsl\bootimage\BOOT.bin -w on
+03:46:29 INFO  : Bootgen command execution is done.
+03:48:44 INFO  : ps7_init is completed.
+03:48:44 INFO  : ps7_post_config is completed.
+03:48:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:48:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:48:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:49:17 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+03:49:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:49:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+03:49:22 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/vgademo_wrapper.bit"
+03:49:31 INFO  : ps7_init is completed.
+03:49:31 INFO  : ps7_post_config is completed.
+03:49:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:51:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+05:12:57 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+05:12:59 INFO  : XSDB server has started successfully.
+05:12:59 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf.
+05:13:01 INFO  : Checking for hwspec changes in the project vgademo_wrapper_hw_platform_0.

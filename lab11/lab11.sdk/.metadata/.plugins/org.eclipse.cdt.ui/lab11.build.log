@@ -1,0 +1,21 @@
+07:40:40 **** Auto Build of configuration Debug for project lab11 ****
+make all 
+'Building file: ../src/lab4_soln.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4_soln.o" -I../../lab11_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4_soln.d" -MT"src/lab4_soln.d" -o "src/lab4_soln.o" "../src/lab4_soln.c"
+'Finished building: ../src/lab4_soln.c'
+' '
+'Building target: lab11.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab11_bsp/ps7_cortexa9_0/lib -o "lab11.elf"  ./src/lab4_soln.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab11.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab11.elf  |tee "lab11.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23796	   1184	  22580	  47560	   b9c8	lab11.elf
+'Finished building: lab11.elf.size'
+' '
+
+07:40:41 Build Finished (took 1s.248ms)
+

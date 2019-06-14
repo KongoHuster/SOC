@@ -1,7 +1,7 @@
 //Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-//Date        : Wed Jun 12 07:25:16 2019
+//Date        : Thu Jun 13 01:57:59 2019
 //Host        : DESKTOP-VUIUF3J running 64-bit major release  (build 9200)
 //Command     : generate_target zynq_interrupt_system_wrapper.bd
 //Design      : zynq_interrupt_system_wrapper
@@ -32,7 +32,8 @@ module zynq_interrupt_system_wrapper
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
     btns_4bits_tri_i,
-    leds_4bits_tri_o);
+    leds_4bits_tri_o,
+    switches_4bits_0_tri_i);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -56,6 +57,7 @@ module zynq_interrupt_system_wrapper
   inout FIXED_IO_ps_srstb;
   input [3:0]btns_4bits_tri_i;
   output [3:0]leds_4bits_tri_o;
+  input [3:0]switches_4bits_0_tri_i;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -80,6 +82,7 @@ module zynq_interrupt_system_wrapper
   wire FIXED_IO_ps_srstb;
   wire [3:0]btns_4bits_tri_i;
   wire [3:0]leds_4bits_tri_o;
+  wire [3:0]switches_4bits_0_tri_i;
 
   zynq_interrupt_system zynq_interrupt_system_i
        (.DDR_addr(DDR_addr),
@@ -104,5 +107,6 @@ module zynq_interrupt_system_wrapper
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
         .btns_4bits_tri_i(btns_4bits_tri_i),
-        .leds_4bits_tri_o(leds_4bits_tri_o));
+        .leds_4bits_tri_o(leds_4bits_tri_o),
+        .switches_4bits_0_tri_i(switches_4bits_0_tri_i));
 endmodule

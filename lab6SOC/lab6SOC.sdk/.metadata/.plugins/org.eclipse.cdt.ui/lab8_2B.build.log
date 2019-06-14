@@ -1,4 +1,4 @@
-04:53:27 **** Auto Build of configuration Debug for project lab8_2B ****
+00:49:07 **** Incremental Build of configuration Debug for project lab8_2B ****
 make all 
 'Building file: ../src/interrupt_counter_tut_2B.c'
 'Invoking: ARM gcc compiler'
@@ -18,5 +18,5 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counte
              ^
 make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
 
-04:53:28 Build Finished (took 493ms)
+00:49:08 Build Finished (took 510ms)
 

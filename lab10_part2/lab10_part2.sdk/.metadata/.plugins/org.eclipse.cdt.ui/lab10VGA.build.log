@@ -1,0 +1,6 @@
+03:49:26 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+
+03:49:26 Build Finished (took 265ms)
+

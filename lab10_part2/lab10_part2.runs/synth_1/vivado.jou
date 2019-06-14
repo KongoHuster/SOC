@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 12 15:01:12 2019
+# Process ID: 8360
+# Log file: D:/Study/Soc/SOC/labs/lab10/lab10VGA2/lab10VGA2.runs/synth_1/vgademo_wrapper.vds
+# Journal file: D:/Study/Soc/SOC/labs/lab10/lab10VGA2/lab10VGA2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vgademo_wrapper.tcl -notrace

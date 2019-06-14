@@ -1,0 +1,29 @@
+07:01:47 **** Auto Build of configuration Debug for project lab8_part2 ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2D.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -I../../lab8_part2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.d" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:195:3: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+   ^
+In file included from ../src/interrupt_counter_tut_2D.c:4:0:
+../../lab8_part2_bsp/ps7_cortexa9_0/include/xtmrctr.h:293:6: note: expected 'XTmrCtr_Handler' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^
+'Finished building: ../src/interrupt_counter_tut_2D.c'
+' '
+'Building target: lab8_part2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab8_part2_bsp/ps7_cortexa9_0/lib -o "lab8_part2.elf"  ./src/interrupt_counter_tut_2D.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab8_part2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab8_part2.elf  |tee "lab8_part2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32592	   2000	  10404	  44996	   afc4	lab8_part2.elf
+'Finished building: lab8_part2.elf.size'
+' '
+
+07:01:48 Build Finished (took 1s.135ms)
+

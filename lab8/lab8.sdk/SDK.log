@@ -68,3 +68,130 @@ java.lang.RuntimeException: Failed to download ELF file
 07:11:52 INFO  : ps7_post_config is completed.
 07:11:52 INFO  : Processor reset is completed for ps7_cortexa9_0
 07:14:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:58:51 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+00:58:53 INFO  : XSDB server has started successfully.
+00:58:54 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+00:58:55 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_0.
+00:59:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:59:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+00:59:31 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+00:59:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:59:50 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+01:00:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:00:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+01:00:03 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+01:01:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:01:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+01:01:02 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+01:01:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:01:38 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+01:01:41 INFO  : XSDB server has started successfully.
+01:01:41 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+01:01:42 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_0.
+01:01:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:01:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+01:02:01 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+01:02:17 INFO  : ps7_init is completed.
+01:02:17 INFO  : ps7_post_config is completed.
+01:02:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:03:26 INFO  : ps7_init is completed.
+01:03:26 INFO  : ps7_post_config is completed.
+01:03:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:03:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:03:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+01:03:43 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+01:03:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:04:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:04:04 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+01:04:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:04:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+01:04:51 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+01:05:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:05:40 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+01:05:42 INFO  : XSDB server has started successfully.
+01:05:43 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper.hdf.
+01:05:44 INFO  : Checking for hwspec changes in the project zynq_interrupt_system_wrapper_hw_platform_0.
+01:06:41 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+01:06:41 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:381)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:290)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+01:08:21 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+01:08:21 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:381)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:290)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+01:08:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:08:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279654348A" && level==0} -index 1' command is executed.
+01:08:48 INFO  : FPGA configured successfully with bitstream "C:/Users/yizii/Desktop/SOC/lab8/lab8.sdk/zynq_interrupt_system_wrapper_hw_platform_0/zynq_interrupt_system_wrapper.bit"
+01:09:23 INFO  : ps7_init is completed.
+01:09:23 INFO  : ps7_post_config is completed.
+01:09:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:11:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

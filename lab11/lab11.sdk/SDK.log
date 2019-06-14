@@ -1,0 +1,3 @@
+07:33:48 INFO  : Launching XSDB server: xsdb.bat -s C:/Users/XLInux/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+07:33:49 INFO  : Processing command line option -hwspec C:/Users/yizii/Desktop/SOC/lab11/lab11.sdk/system_wrapper.hdf.
+07:33:51 INFO  : XSDB server has started successfully.

@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 12 19:30:20 2019
+# Process ID: 3604
+# Log file: D:/Study/Soc/SOC/labs/lab10/lab10_part2/vivado.log
+# Journal file: D:/Study/Soc/SOC/labs/lab10/lab10_part2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Study/Soc/SOC/labs/lab10/zybo_base_system'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 727.238 ; gain = 161.559
+file mkdir D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk
+file copy -force D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.runs/impl_1/vgademo_wrapper.sysdef D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf
+
+launch_sdk -workspace D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk -hwspec D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk -hwspec D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk -hwspec D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk -hwspec D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 12 23:48:06 2019...

@@ -1,0 +1,42 @@
+01:50:58 **** Auto Build of configuration Debug for project lab8 ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2D.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2D.o" -I../../lab8_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2D.d" -MT"src/interrupt_counter_tut_2D.d" -o "src/interrupt_counter_tut_2D.o" "../src/interrupt_counter_tut_2D.c"
+../src/interrupt_counter_tut_2D.c: In function 'main':
+../src/interrupt_counter_tut_2D.c:239:3: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+   ^
+In file included from ../src/interrupt_counter_tut_2D.c:22:0:
+../../lab8_bsp/ps7_cortexa9_0/include/xtmrctr.h:293:6: note: expected 'XTmrCtr_Handler' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^
+../src/interrupt_counter_tut_2D.c:253:21: error: 'dip' undeclared (first use in this function)
+   XGpio_Initialize(&dip, XPAR_SWITCHES_DEVICE_ID);
+                     ^
+../src/interrupt_counter_tut_2D.c:253:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/interrupt_counter_tut_2D.c:253:26: error: 'XPAR_SWITCHES_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&dip, XPAR_SWITCHES_DEVICE_ID);
+                          ^
+../src/interrupt_counter_tut_2D.c:257:2: error: 'dip_check_prev' undeclared (first use in this function)
+  dip_check_prev = XGpio_DiscreteRead(&dip, 1);
+  ^
+../src/interrupt_counter_tut_2D.c:259:2: warning: implicit declaration of function 'XScuTimer_LoadTimer' [-Wimplicit-function-declaration]
+  XScuTimer_LoadTimer(TimerInstancePtr, ONE_TENTH*dip_check_prev);
+  ^
+../src/interrupt_counter_tut_2D.c:259:22: error: 'TimerInstancePtr' undeclared (first use in this function)
+  XScuTimer_LoadTimer(TimerInstancePtr, ONE_TENTH*dip_check_prev);
+                      ^
+../src/interrupt_counter_tut_2D.c:259:40: error: 'ONE_TENTH' undeclared (first use in this function)
+  XScuTimer_LoadTimer(TimerInstancePtr, ONE_TENTH*dip_check_prev);
+                                        ^
+../src/interrupt_counter_tut_2D.c:261:2: warning: implicit declaration of function 'XScuTimer_EnableAutoReload' [-Wimplicit-function-declaration]
+  XScuTimer_EnableAutoReload(TimerInstancePtr);
+  ^
+../src/interrupt_counter_tut_2D.c:263:2: warning: implicit declaration of function 'XScuTimer_Start' [-Wimplicit-function-declaration]
+  XScuTimer_Start(TimerInstancePtr);
+  ^
+make: *** [src/interrupt_counter_tut_2D.o] ´íÎó 1
+
+01:50:58 Build Finished (took 481ms)
+

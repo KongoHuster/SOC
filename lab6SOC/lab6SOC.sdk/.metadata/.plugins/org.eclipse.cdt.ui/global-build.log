@@ -460,3 +460,29 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counte
              INTC_GPIO_INTERRUPT_ID,
              ^
 make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+00:49:06 **** Incremental Build of configuration Debug for project lab7 ****
+make all 
+make: Nothing to be done for `all'.
+00:49:07 **** Incremental Build of configuration Debug for project lab8_2B ****
+make all 
+'Building file: ../src/interrupt_counter_tut_2B.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter_tut_2B.o" -I../../lab8_2B_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/interrupt_counter_tut_2B.d" -MT"src/interrupt_counter_tut_2B.d" -o "src/interrupt_counter_tut_2B.o" "../src/interrupt_counter_tut_2B.c"
+../src/interrupt_counter_tut_2B.c: In function 'IntcInitFunction':
+../src/interrupt_counter_tut_2B.c:32:32: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared (first use in this function)
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+../src/interrupt_counter_tut_2B.c:32:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                ^
+../src/interrupt_counter_tut_2B.c:153:13: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+             INTC_GPIO_INTERRUPT_ID,
+             ^
+make: *** [src/interrupt_counter_tut_2B.o] ´íÎó 1
+
+**** Build of configuration Debug for project lab8_2D ****
+
+Nothing to build for project lab8_2D

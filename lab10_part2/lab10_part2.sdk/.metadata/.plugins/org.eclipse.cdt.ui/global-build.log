@@ -1,0 +1,1836 @@
+03:01:00 **** Build of project lab10VGA_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab10VGA ****
+
+Nothing to build for project lab10VGA
+03:02:05 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:26:24: fatal error: audio_demo.h: No such file or directory
+ #include "audio_demo.h"
+                        ^
+compilation terminated.
+make: *** [src/main.o] ¥ÌŒÛ 1
+03:02:13 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:53:22: error: 'XPAR_AXIVDMA_1_DEVICE_ID' undeclared (first use in this function)
+ #define HDMI_VDMA_ID XPAR_AXIVDMA_1_DEVICE_ID
+                      ^
+../src/main.c:81:35: note: in expansion of macro 'HDMI_VDMA_ID'
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                   ^
+../src/main.c:53:22: note: each undeclared identifier is reported only once for each function it appears in
+ #define HDMI_VDMA_ID XPAR_AXIVDMA_1_DEVICE_ID
+                      ^
+../src/main.c:81:35: note: in expansion of macro 'HDMI_VDMA_ID'
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                   ^
+../src/main.c:51:23: error: 'XPAR_AXI_DISPCTRL_1_S_AXI_BASEADDR' undeclared (first use in this function)
+ #define HDMI_BASEADDR XPAR_AXI_DISPCTRL_1_S_AXI_BASEADDR
+                       ^
+../src/main.c:81:63: note: in expansion of macro 'HDMI_BASEADDR'
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                                               ^
+../src/main.c:82:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:55:29: error: 'XPAR_AXI_I2S_ADI_1_S_AXI_BASEADDR' undeclared (first use in this function)
+ #define AUDIO_CTRL_BASEADDR XPAR_AXI_I2S_ADI_1_S_AXI_BASEADDR
+                             ^
+../src/main.c:82:46: note: in expansion of macro 'AUDIO_CTRL_BASEADDR'
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+                                              ^
+../src/main.c:106:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:58:21: error: 'XPAR_SWS_4BITS_BASEADDR' undeclared (first use in this function)
+ #define SW_BASEADDR XPAR_SWS_4BITS_BASEADDR
+                     ^
+../src/main.c:106:53: note: in expansion of macro 'SW_BASEADDR'
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                                                     ^
+../src/main.c:59:22: error: 'XPAR_BTNS_4BITS_BASEADDR' undeclared (first use in this function)
+ #define BTN_BASEADDR XPAR_BTNS_4BITS_BASEADDR
+                      ^
+../src/main.c:106:66: note: in expansion of macro 'BTN_BASEADDR'
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                                                                  ^
+make: *** [src/main.o] ¥ÌŒÛ 1
+03:02:19 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:81:35: error: 'HDMI_VDMA_ID' undeclared (first use in this function)
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                   ^
+../src/main.c:81:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:81:63: error: 'HDMI_BASEADDR' undeclared (first use in this function)
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                                               ^
+../src/main.c:82:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:82:46: error: 'AUDIO_CTRL_BASEADDR' undeclared (first use in this function)
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+                                              ^
+../src/main.c:106:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:58:21: error: 'XPAR_SWS_4BITS_BASEADDR' undeclared (first use in this function)
+ #define SW_BASEADDR XPAR_SWS_4BITS_BASEADDR
+                     ^
+../src/main.c:106:53: note: in expansion of macro 'SW_BASEADDR'
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                                                     ^
+../src/main.c:59:22: error: 'XPAR_BTNS_4BITS_BASEADDR' undeclared (first use in this function)
+ #define BTN_BASEADDR XPAR_BTNS_4BITS_BASEADDR
+                      ^
+../src/main.c:106:66: note: in expansion of macro 'BTN_BASEADDR'
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                                                                  ^
+make: *** [src/main.o] ¥ÌŒÛ 1
+03:02:22 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:81:35: error: 'HDMI_VDMA_ID' undeclared (first use in this function)
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                   ^
+../src/main.c:81:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:81:63: error: 'HDMI_BASEADDR' undeclared (first use in this function)
+  DisplayDemoInitialize(&hdmiCtrl, HDMI_VDMA_ID, SCU_TIMER_ID, HDMI_BASEADDR, DISPLAY_HDMI, hdmiPtr);
+                                                               ^
+../src/main.c:82:2: warning: implicit declaration of function 'AudioInitialize' [-Wimplicit-function-declaration]
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+  ^
+../src/main.c:82:46: error: 'AUDIO_CTRL_BASEADDR' undeclared (first use in this function)
+  AudioInitialize(SCU_TIMER_ID, AUDIO_IIC_ID, AUDIO_CTRL_BASEADDR);
+                                              ^
+../src/main.c:106:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:106:53: error: 'SW_BASEADDR' undeclared (first use in this function)
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                                                     ^
+../src/main.c:106:66: error: 'BTN_BASEADDR' undeclared (first use in this function)
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                                                                  ^
+make: *** [src/main.o] ¥ÌŒÛ 1
+03:02:29 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:106:4: warning: implicit declaration of function 'AudioRunDemo' [-Wimplicit-function-declaration]
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+    ^
+../src/main.c:106:17: error: 'AUDIO_CTRL_BASEADDR' undeclared (first use in this function)
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                 ^
+../src/main.c:106:17: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:106:53: error: 'SW_BASEADDR' undeclared (first use in this function)
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                                                     ^
+../src/main.c:106:66: error: 'BTN_BASEADDR' undeclared (first use in this function)
+    AudioRunDemo(AUDIO_CTRL_BASEADDR, UART_BASEADDR, SW_BASEADDR, BTN_BASEADDR);
+                                                                  ^
+../src/main.c:70:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+make: *** [src/main.o] ¥ÌŒÛ 1
+03:02:34 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83964	   2448	49794592	49881004	2f91fac	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:03:05 **** Auto Build of project lab10VGA_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_1/src"
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling XilFFs Library"
+"Creating archive libxilffs.a"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_1/src"
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+'Finished building libraries'
+03:03:30 **** Clean-only build of configuration Debug for project lab10VGA ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/display_demo.d ./src/main.d ./src/timer_ps.d  lab10VGA.elf.size  lab10VGA.elf
+' '
+03:03:30 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83964	   2448	49794592	49881004	2f91fac	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:03:54 **** Build of configuration Debug for project lab10_fbl ****
+make all 
+'Building file: ../src/fsbl_handoff.S'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_handoff.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_handoff.d" -MT"src/fsbl_handoff.d" -o "src/fsbl_handoff.o" "../src/fsbl_handoff.S"
+'Finished building: ../src/fsbl_handoff.S'
+' '
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+'Finished building: ../src/fsbl_hooks.c'
+' '
+'Building file: ../src/image_mover.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.d" -o "src/image_mover.o" "../src/image_mover.c"
+'Finished building: ../src/image_mover.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/md5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/md5.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/md5.d" -MT"src/md5.d" -o "src/md5.o" "../src/md5.c"
+'Finished building: ../src/md5.c'
+' '
+'Building file: ../src/nand.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.d" -o "src/nand.o" "../src/nand.c"
+'Finished building: ../src/nand.c'
+' '
+'Building file: ../src/nor.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.d" -o "src/nor.o" "../src/nor.c"
+'Finished building: ../src/nor.c'
+' '
+'Building file: ../src/pcap.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.d" -o "src/pcap.o" "../src/pcap.c"
+'Finished building: ../src/pcap.c'
+' '
+'Building file: C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/ps7_init.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c"
+'Finished building: C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c'
+' '
+'Building file: ../src/qspi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/qspi.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/qspi.d" -MT"src/qspi.d" -o "src/qspi.o" "../src/qspi.c"
+'Finished building: ../src/qspi.c'
+' '
+'Building file: ../src/rsa.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/rsa.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rsa.d" -MT"src/rsa.d" -o "src/rsa.o" "../src/rsa.c"
+'Finished building: ../src/rsa.c'
+' '
+'Building file: ../src/sd.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/sd.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sd.d" -MT"src/sd.d" -o "src/sd.o" "../src/sd.c"
+'Finished building: ../src/sd.c'
+' '
+'Building target: lab10_fbl.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -L"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10_fbl\src" -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10_fbl.elf"  ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10_fbl.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10_fbl.elf  |tee "lab10_fbl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  55004	  11648	  71812	 138464	  21ce0	lab10_fbl.elf
+'Finished building: lab10_fbl.elf.size'
+' '
+03:08:03 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:08:03 **** Incremental Build of configuration Debug for project lab10_fbl ****
+make all 
+make: Nothing to be done for `all'.
+03:09:28 **** Clean-only build of configuration Debug for project lab10VGA ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/display_demo.d ./src/main.d ./src/timer_ps.d  lab10VGA.elf.size  lab10VGA.elf
+' '
+
+****  of configuration Debug for project lab10VGA ****
+
+Nothing to build for project lab10VGA
+03:11:10 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/audio_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio_demo.d" -MT"src/audio_demo.d" -o "src/audio_demo.o" "../src/audio_demo.c"
+'Finished building: ../src/audio_demo.c'
+' '
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+./src/display_demo.o: In function `swirlyRD':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:294: undefined reference to `log'
+./src/display_demo.o: In function `swirlyGR':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:298: undefined reference to `log'
+./src/display_demo.o: In function `swirlyBL':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:302: undefined reference to `log'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab10VGA.elf] ¥ÌŒÛ 1
+03:11:58 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  95632	   2464	51714656	51812752	3169990	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:12:29 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+./src/display_demo.o: In function `RD':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:296: undefined reference to `pow'
+./src/display_demo.o: In function `GR':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:302: undefined reference to `pow'
+./src/display_demo.o: In function `BL':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:308: undefined reference to `pow'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab10VGA.elf] ¥ÌŒÛ 1
+03:12:45 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'RD':
+../src/display_demo.c:296:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,3.);
+                          ^
+../src/display_demo.c: In function 'GR':
+../src/display_demo.c:302:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,.7);
+                          ^
+../src/display_demo.c: In function 'BL':
+../src/display_demo.c:308:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,.5);
+                          ^
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  96592	   2464	51714656	51813712	3169d50	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:12:59 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'RD':
+../src/display_demo.c:296:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,3.);
+                          ^
+../src/display_demo.c: In function 'GR':
+../src/display_demo.c:302:25: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*(n-80)/800,.7);
+                         ^
+../src/display_demo.c:302:28: error: expected ';' before ')' token
+    return 255*(n-80)/800,.7);
+                            ^
+../src/display_demo.c:302:28: error: expected statement before ')' token
+../src/display_demo.c: In function 'BL':
+../src/display_demo.c:308:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,.5);
+                          ^
+make: *** [src/display_demo.o] ¥ÌŒÛ 1
+03:13:04 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'RD':
+../src/display_demo.c:296:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,3.);
+                          ^
+../src/display_demo.c: In function 'GR':
+../src/display_demo.c:302:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,.7);
+                          ^
+../src/display_demo.c: In function 'BL':
+../src/display_demo.c:308:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,.5);
+                          ^
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  96592	   2464	51714656	51813712	3169d50	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:13:34 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'RD':
+../src/display_demo.c:296:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,3.);
+                          ^
+../src/display_demo.c: In function 'GR':
+../src/display_demo.c:302:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,.7);
+                          ^
+../src/display_demo.c: In function 'BL':
+../src/display_demo.c:308:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    return 255*((n-80)/800,.5);
+                          ^
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  96592	   2464	51714656	51813712	3169d50	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:14:07 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:14:08 **** Auto Build of configuration Debug for project lab10_fbl ****
+make all 
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+In file included from ../src/fsbl_hooks.c:54:0:
+../src/fsbl.h:299:20: fatal error: xil_io.h: No such file or directory
+ #include "xil_io.h"
+                    ^
+compilation terminated.
+make: *** [src/fsbl_hooks.o] ¥ÌŒÛ 1
+03:15:36 **** Auto Build of configuration Debug for project lab10_fbl ****
+make all 
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+In file included from ../src/fsbl_hooks.c:54:0:
+../src/fsbl.h:300:25: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+                         ^
+compilation terminated.
+make: *** [src/fsbl_hooks.o] ¥ÌŒÛ 1
+03:15:40 **** Auto Build of configuration Debug for project lab10_fbl ****
+make all 
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+In file included from ../src/fsbl_hooks.c:54:0:
+../src/fsbl.h:301:25: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+                         ^
+compilation terminated.
+make: *** [src/fsbl_hooks.o] ¥ÌŒÛ 1
+03:15:51 **** Build of project lab10VGA_bsp ****
+make -k all 
+make: *** √ª”–πÊ‘Úø…“‘¥¥Ω®ƒø±Í°∞all°±.
+03:15:51 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:15:52 **** Auto Build of configuration Debug for project lab10_fbl ****
+make all 
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+In file included from ../src/fsbl_hooks.c:54:0:
+../src/fsbl.h:301:25: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+                         ^
+compilation terminated.
+make: *** [src/fsbl_hooks.o] ¥ÌŒÛ 1
+03:16:37 **** Build of project lab10VGA_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab10VGA ****
+
+Nothing to build for project lab10VGA
+03:17:19 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:26:24: fatal error: audio_demo.h: No such file or directory
+ #include "audio_demo.h"
+                        ^
+compilation terminated.
+make: *** [src/main.o] ¥ÌŒÛ 1
+03:17:28 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/display_demo.o: In function `swirlyRD':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:294: undefined reference to `log'
+./src/display_demo.o: In function `swirlyGR':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:298: undefined reference to `log'
+./src/display_demo.o: In function `swirlyBL':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:302: undefined reference to `log'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab10VGA.elf] ¥ÌŒÛ 1
+03:18:33 **** Auto Build of project lab10VGA_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+03:18:58 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/display_demo.o: In function `swirlyRD':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:294: undefined reference to `log'
+./src/display_demo.o: In function `swirlyGR':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:298: undefined reference to `log'
+./src/display_demo.o: In function `swirlyBL':
+C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug/../src/display_demo.c:302: undefined reference to `log'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab10VGA.elf] ¥ÌŒÛ 1
+03:21:13 **** Clean-only build of configuration Debug for project lab10VGA ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/display_demo.d ./src/main.d ./src/timer_ps.d  lab10VGA.elf.size  lab10VGA.elf
+' '
+03:21:13 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87352	   2456	49794592	49884400	2f92cf0	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:21:41 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87352	   2456	49794592	49884400	2f92cf0	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:21:52 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:22:22 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:25:59 **** Auto Build of project lab10VGA_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_1/src"
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling XilFFs Library"
+"Creating archive libxilffs.a"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_1/src"
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+'Finished building libraries'
+03:26:25 **** Clean-only build of configuration Debug for project lab10VGA ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/display_demo.d ./src/main.d ./src/timer_ps.d  lab10VGA.elf.size  lab10VGA.elf
+' '
+03:26:25 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:7: warning: variable 'hdmiPtr' set but not used [-Wunused-but-set-variable]
+  u32 *hdmiPtr[DISPLAY_NUM_FRAMES];
+       ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:26:39 **** Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+'Building file: ../src/fsbl_handoff.S'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_handoff.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_handoff.d" -MT"src/fsbl_handoff.d" -o "src/fsbl_handoff.o" "../src/fsbl_handoff.S"
+'Finished building: ../src/fsbl_handoff.S'
+' '
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+'Finished building: ../src/fsbl_hooks.c'
+' '
+'Building file: ../src/image_mover.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.d" -o "src/image_mover.o" "../src/image_mover.c"
+'Finished building: ../src/image_mover.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/md5.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/md5.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/md5.d" -MT"src/md5.d" -o "src/md5.o" "../src/md5.c"
+'Finished building: ../src/md5.c'
+' '
+'Building file: ../src/nand.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.d" -o "src/nand.o" "../src/nand.c"
+'Finished building: ../src/nand.c'
+' '
+'Building file: ../src/nor.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.d" -o "src/nor.o" "../src/nor.c"
+'Finished building: ../src/nor.c'
+' '
+'Building file: ../src/pcap.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.d" -o "src/pcap.o" "../src/pcap.c"
+'Finished building: ../src/pcap.c'
+' '
+'Building file: C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/ps7_init.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c"
+'Finished building: C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c'
+' '
+'Building file: ../src/qspi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/qspi.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/qspi.d" -MT"src/qspi.d" -o "src/qspi.o" "../src/qspi.c"
+'Finished building: ../src/qspi.c'
+' '
+'Building file: ../src/rsa.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/rsa.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rsa.d" -MT"src/rsa.d" -o "src/rsa.o" "../src/rsa.c"
+'Finished building: ../src/rsa.c'
+' '
+'Building file: ../src/sd.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/sd.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sd.d" -MT"src/sd.d" -o "src/sd.o" "../src/sd.c"
+'Finished building: ../src/sd.c'
+' '
+'Building target: lab10VGA_fsl.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -L"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA_fsl\src" -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA_fsl.elf"  ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA_fsl.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA_fsl.elf  |tee "lab10VGA_fsl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  55004	  11648	  71812	 138464	  21ce0	lab10VGA_fsl.elf
+'Finished building: lab10VGA_fsl.elf.size'
+' '
+03:30:36 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'RD':
+../src/display_demo.c:290:15: error: too many arguments to function 'log'
+    return 255*log((n-80)/800,3.);
+               ^
+../src/display_demo.c: In function 'GR':
+../src/display_demo.c:296:15: error: too many arguments to function 'log'
+    return 255*log((n-80)/800,.7);
+               ^
+../src/display_demo.c: In function 'BL':
+../src/display_demo.c:302:15: error: too many arguments to function 'log'
+    return 255*log((n-80)/800,.5);
+               ^
+make: *** [src/display_demo.o] ¥ÌŒÛ 1
+03:30:50 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:31:31 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:31:37 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:32:01 **** Auto Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:35:44 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:36:09 **** Auto Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:38:07 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:38:08 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:38:50 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:38:51 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+'Finished building: ../src/fsbl_hooks.c'
+' '
+'Building file: ../src/image_mover.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.d" -o "src/image_mover.o" "../src/image_mover.c"
+'Finished building: ../src/image_mover.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/nand.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.d" -o "src/nand.o" "../src/nand.c"
+'Finished building: ../src/nand.c'
+' '
+'Building file: ../src/nor.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.d" -o "src/nor.o" "../src/nor.c"
+'Finished building: ../src/nor.c'
+' '
+'Building file: ../src/pcap.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.d" -o "src/pcap.o" "../src/pcap.c"
+'Finished building: ../src/pcap.c'
+' '
+'Building file: C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/ps7_init.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c"
+'Finished building: C:/Users/yizii/Desktop/SOC/lab10_part2/lab10_part2.sdk/vgademo_wrapper_hw_platform_0/ps7_init.c'
+' '
+'Building file: ../src/qspi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/qspi.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/qspi.d" -MT"src/qspi.d" -o "src/qspi.o" "../src/qspi.c"
+'Finished building: ../src/qspi.c'
+' '
+'Building file: ../src/rsa.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/rsa.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rsa.d" -MT"src/rsa.d" -o "src/rsa.o" "../src/rsa.c"
+'Finished building: ../src/rsa.c'
+' '
+'Building file: ../src/sd.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/sd.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sd.d" -MT"src/sd.d" -o "src/sd.o" "../src/sd.c"
+'Finished building: ../src/sd.c'
+' '
+'Building target: lab10VGA_fsl.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -L"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA_fsl\src" -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA_fsl.elf"  ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA_fsl.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA_fsl.elf  |tee "lab10VGA_fsl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  55004	  11648	  71812	 138464	  21ce0	lab10VGA_fsl.elf
+'Finished building: lab10VGA_fsl.elf.size'
+' '
+03:39:34 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:39:35 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:40:14 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:40:19 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:40:20 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:41:01 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:41:07 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:41:08 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:41:37 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:41:58 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'swirlyGR':
+../src/display_demo.c:318:102: error: too few arguments to function 'pow'
+  float x=D(i),y=D(j),X,Y,n=0;while(n++<100&&(x*x+y*y)<4){X=x;Y=y;x=X-X*Y+-.27;y=2*X*Y+.21015;}return pow(n)*64;
+                                                                                                      ^
+../src/display_demo.c:319:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/display_demo.o] ¥ÌŒÛ 1
+03:42:15 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'swirlyGR':
+../src/display_demo.c:318:112: error: expected ')' before ';' token
+  float x=D(i),y=D(j),X,Y,n=0;while(n++<100&&(x*x+y*y)<4){X=x;Y=y;x=X-X*Y+-.27;y=2*X*Y+.21015;}return log((n)*64;
+                                                                                                                ^
+../src/display_demo.c:319:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/display_demo.o] ¥ÌŒÛ 1
+03:42:19 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:42:24 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93180	   2456	49794592	49890228	2f943b4	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:42:29 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:42:29 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:43:18 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93180	   2456	49794592	49890228	2f943b4	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:43:37 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93180	   2456	49794592	49890228	2f943b4	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:43:44 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93180	   2456	49794592	49890228	2f943b4	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:43:48 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:43:49 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:44:20 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93180	   2456	49794592	49890228	2f943b4	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:44:24 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:44:24 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:45:12 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93116	   2456	49794592	49890164	2f94374	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:45:16 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:45:17 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:45:24 **** Auto Build of configuration Debug for project lab10VGA ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: lab10VGA.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab10VGA_bsp/ps7_cortexa9_0/lib -o "lab10VGA.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab10VGA.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab10VGA.elf  |tee "lab10VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93180	   2456	49794592	49890228	2f943b4	lab10VGA.elf
+'Finished building: lab10VGA.elf.size'
+' '
+03:45:34 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:45:35 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:46:29 **** Auto Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:48:42 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:48:43 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:48:56 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:48:57 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.
+03:49:26 **** Incremental Build of configuration Debug for project lab10VGA ****
+make all 
+make: Nothing to be done for `all'.
+03:49:26 **** Incremental Build of configuration Debug for project lab10VGA_fsl ****
+make all 
+make: Nothing to be done for `all'.

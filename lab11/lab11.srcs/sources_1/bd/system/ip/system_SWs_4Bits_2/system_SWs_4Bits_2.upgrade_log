@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Jun 14 05:34:53 2019
+| Host         : DESKTOP-VUIUF3J running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_SWs_4Bits_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_SWs_4Bits_2 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 3) to (Rev. 7)
+

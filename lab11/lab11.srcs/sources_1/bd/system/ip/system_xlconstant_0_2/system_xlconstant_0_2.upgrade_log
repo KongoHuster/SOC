@@ -1,0 +1,21 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Jun 14 05:35:25 2019
+| Host         : DESKTOP-VUIUF3J running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconstant_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xlconstant_0_2 from xilinx.com:ip:xlconstant:1.0 to xilinx.com:ip:xlconstant:1.1 (Rev. 1)
+
+2. Upgrade messages
+-------------------
+
+Renamed port const to dout
+

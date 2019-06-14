@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 12 19:30:20 2019
+# Process ID: 3604
+# Log file: D:/Study/Soc/SOC/labs/lab10/lab10_part2/vivado.log
+# Journal file: D:/Study/Soc/SOC/labs/lab10/lab10_part2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.xpr
+file mkdir D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk
+file copy -force D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.runs/impl_1/vgademo_wrapper.sysdef D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf
+
+launch_sdk -workspace D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk -hwspec D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf
+launch_sdk -workspace D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk -hwspec D:/Study/Soc/SOC/labs/lab10/lab10_part2/lab10_part2.sdk/vgademo_wrapper.hdf

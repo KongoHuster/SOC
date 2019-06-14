@@ -28,6 +28,9 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_interrupt_
 # IP: bd/zynq_interrupt_system/ip/zynq_interrupt_system_xlconcat_0_0/zynq_interrupt_system_xlconcat_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_interrupt_system_xlconcat_0_0 || ORIG_REF_NAME==zynq_interrupt_system_xlconcat_0_0}]
 
+# IP: bd/zynq_interrupt_system/ip/zynq_interrupt_system_axi_gpio_2_1/zynq_interrupt_system_axi_gpio_2_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_interrupt_system_axi_gpio_2_1 || ORIG_REF_NAME==zynq_interrupt_system_axi_gpio_2_1}]
+
 # IP: bd/zynq_interrupt_system/ip/zynq_interrupt_system_auto_pc_0/zynq_interrupt_system_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_interrupt_system_auto_pc_0 || ORIG_REF_NAME==zynq_interrupt_system_auto_pc_0}]
 
@@ -64,6 +67,14 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 #dup# set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_interrupt_system_axi_timer_0_0 || ORIG_REF_NAME==zynq_interrupt_system_axi_timer_0_0}]
 
 # XDC: bd/zynq_interrupt_system/ip/zynq_interrupt_system_axi_timer_0_0/zynq_interrupt_system_axi_timer_0_0_ooc.xdc
+
+# XDC: bd/zynq_interrupt_system/ip/zynq_interrupt_system_axi_gpio_2_1/zynq_interrupt_system_axi_gpio_2_1_board.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==zynq_interrupt_system_axi_gpio_2_1 || ORIG_REF_NAME==zynq_interrupt_system_axi_gpio_2_1}] {/U0 }]/U0 ]]
+
+# XDC: bd/zynq_interrupt_system/ip/zynq_interrupt_system_axi_gpio_2_1/zynq_interrupt_system_axi_gpio_2_1_ooc.xdc
+
+# XDC: bd/zynq_interrupt_system/ip/zynq_interrupt_system_axi_gpio_2_1/zynq_interrupt_system_axi_gpio_2_1.xdc
+#dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==zynq_interrupt_system_axi_gpio_2_1 || ORIG_REF_NAME==zynq_interrupt_system_axi_gpio_2_1}] {/U0 }]/U0 ]]
 
 # XDC: bd/zynq_interrupt_system/ip/zynq_interrupt_system_auto_pc_0/zynq_interrupt_system_auto_pc_0_ooc.xdc
 

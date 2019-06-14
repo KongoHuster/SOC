@@ -1,0 +1,14 @@
+03:15:52 **** Auto Build of configuration Debug for project lab10_fbl ****
+make all 
+'Building file: ../src/fsbl_hooks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -I../../lab10VGA_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.d" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+In file included from ../src/fsbl_hooks.c:54:0:
+../src/fsbl.h:301:25: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+                         ^
+compilation terminated.
+make: *** [src/fsbl_hooks.o] ´íÎó 1
+
+03:15:52 Build Finished (took 525ms)
+

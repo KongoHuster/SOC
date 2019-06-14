@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA_fsl\Debug\lab10VGA_fsl.elf
+	C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\vgademo_wrapper_hw_platform_0\vgademo_wrapper.bit
+	C:\Users\yizii\Desktop\SOC\lab10_part2\lab10_part2.sdk\lab10VGA\Debug\lab10VGA.elf
+}
